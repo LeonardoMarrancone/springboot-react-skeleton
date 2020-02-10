@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders 1`] = `
+<div>
+  <h2>
+    My Counter
+  </h2>
+  <span>
+    <p>
+      0
+    </p>
+  </span>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Increment
+  </button>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Decrement
+  </button>
+  <h2>
+    The best team is:
+  </h2>
+  <ul />
+</div>
+`;
+
+exports[`Counter snapshot renders 1`] = `
+<span>
+  <p>
+    1
+  </p>
+</span>
+`;
