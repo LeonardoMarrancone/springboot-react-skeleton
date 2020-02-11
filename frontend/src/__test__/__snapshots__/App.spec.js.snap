@@ -23,7 +23,7 @@ exports[`App snapshot renders 1`] = `
     Decrement
   </button>
   <h2>
-    The best team is:
+    The movies are:
   </h2>
   <ul />
 </div>

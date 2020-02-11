@@ -27,8 +27,6 @@ const App = () => {
             });
     }, []);
 
-    if(data.error) console.error(data);
-
     return (
         <div>
             <h2>My Counter</h2>
@@ -39,11 +37,11 @@ const App = () => {
             <button type="button" onClick={() => setCounter(counter - 1)}>
                 Decrement
       </button>
-            <h2>The best team is:</h2>
+            <h2>The movies are:</h2>
             {data.error && <div className="error">Error</div>}
             <ul>
                 {data.list.map((item, key) => (
-                    <li key={key}>{item}</li>
+                    <li key={key}><strong>{item.title}</strong> ({item.released}) - {item.tagline}</li>
                 ))}
             </ul>
         </div>
